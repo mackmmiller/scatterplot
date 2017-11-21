@@ -1,0 +1,45 @@
+$red: #ab0b2e;
+$blue: #0a7b8d;
+$cream: #f4efc2;
+$dOrange: #c36024;
+$lOrange: #de8641;
+
+html,body {
+	height: 100%;
+	margin: 0;
+}
+
+header, footer {
+	background: $red;
+	width: 100%;
+}
+
+header {
+	padding: 1em;
+}
+
+footer {
+	padding: 0.5em;
+	text-align: center;
+	color: white;
+	a {
+		color: white;
+	}
+}
+
+main {
+	background: $blue;
+	svg {
+		border-radius: 5px;
+		margin: 1% 5% 1% 5%;
+	}
+}
+
+div.tooltip {
+	position: absolute;
+	border: 3px solid $dOrange;
+	border-radius: 5px;
+	background: $lOrange;
+	pointer-events: none;
+	padding: 0.25em;
+}

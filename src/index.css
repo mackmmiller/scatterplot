@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  margin: 0; }
+
+header, footer {
+  background: #ab0b2e;
+  width: 100%; }
+
+header {
+  padding: 1em; }
+
+footer {
+  padding: 0.5em;
+  text-align: center;
+  color: white; }
+  footer a {
+    color: white; }
+
+main {
+  background: #0a7b8d; }
+  main svg {
+    border-radius: 5px;
+    margin: 1% 5% 1% 5%; }
+
+div.tooltip {
+  position: absolute;
+  border: 3px solid #c36024;
+  border-radius: 5px;
+  background: #de8641;
+  pointer-events: none;
+  padding: 0.25em; }
+
+/*# sourceMappingURL=index.css.map */
